@@ -702,6 +702,22 @@ p {
 }
 
 /*Подвал*/
+.footer-block {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--background);
+}
+
+.footer-block .base-container {
+  display: flex;
+  align-items: baseline;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .logo-footer {
   display: flex;
   margin-bottom: 20px;
@@ -716,9 +732,6 @@ p {
 .footer-design {
   display: flex;
   align-items: baseline;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: var(--background);
 }
 .web-footer {
   color: var(--white-color);
