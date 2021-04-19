@@ -265,6 +265,7 @@ p {
   color: var(--white-color);
 }
 .hero-title {
+  display: flex;
   max-width: 1600px;
   height: 600px;
   padding-bottom: 200px;
@@ -278,6 +279,7 @@ p {
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/hero.jpg);
+  background-position: center;
 }
 /*Данные о заголовке H2*/
 
@@ -712,8 +714,6 @@ p {
   display: flex;
   align-items: baseline;
   width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -732,6 +732,7 @@ p {
 .footer-design {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 .web-footer {
   color: var(--white-color);
@@ -777,11 +778,7 @@ p {
 }
 /*Присоединяйтесь*/
 .footer-container {
-  align-items: baseline;
-  margin-left: 74.5px;
   margin-right: 70px;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 .footer-block1 {
   display: inline-block;
@@ -997,6 +994,12 @@ p {
   padding-bottom: 10px;
   padding-right: 40px;
   padding-left: 40px;
+
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+
+  color: #757575;
 }
 
 .text-area {
@@ -1005,7 +1008,7 @@ p {
   width: 448px;
   height: 120px;
 
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.14;
   letter-spacing: 0.01em;
   resize: none;
