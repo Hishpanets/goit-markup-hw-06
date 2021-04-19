@@ -265,7 +265,6 @@ p {
   color: var(--white-color);
 }
 .hero-title {
-  display: flex;
   max-width: 1600px;
   height: 600px;
   padding-bottom: 200px;
