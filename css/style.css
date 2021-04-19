@@ -1094,7 +1094,7 @@ p {
 .modal-checkbox {
   position: absolute;
   left: 53px;
-  top: 76.4%;
+  top: 74.4%;
 
   width: 16px;
   height: 15px;
@@ -1127,7 +1127,7 @@ p {
 
 .icon-agree {
   position: absolute;
-  top: 77.4%;
+  top: 75.4%;
   left: 53px;
   transform: translateY(-50%);
   cursor: pointer;
